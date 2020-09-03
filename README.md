@@ -1,54 +1,61 @@
-# Estructura_datos_c-
-EJERCICIOS DE OPERACIONES CONDICIONALES
+Conceptos básicos sobre programación
 
-1. Ingresar dos valores, indicar e imprimir si son iguales
 
-2. Ingresar un valor indicar e imprmir si es positivo, negativo o cero
+IFTS NRO 12
 
-3. Ingresar dos valores y realizar e imprmir el producto si el 1ro es mayor al 2do, si son iguales solo indicarlo
+ESTRUCTURA DE DATOS
 
-4. Ingresar dos valores y realizar e imprimir la resta del mayor menos el menor
+PRESENTACIÓN
 
-5. Ingresar los tres lados de un triángulo e indicar que tipo de triángulo es
+Tal como se lo anticipáramos en la Unidad Introductoria, en esta unidad usted tendrá la posibilidad de estudiar las distintas fases para la resolución de un problema, la forma de confeccionar un programa que solucione ese problema y el tipo de lenguaje que debe elegir para ello.
+Presentaremos una clasificación de los lenguajes de programación considerando su uso y tipo de escritura ?más cercano a la máquina o más cercano al lenguaje humano. También explicaremos un tema que volverá a ver en la asignatura Organización y Estructuración de Datos: la documentación.
+Este es un aspecto importante en la resolución de un problema mediante un programa, aun cuando resulte tedioso y poco atractivo. En la documentación no sólo exponemos qué hicimos, cómo lo hicimos, qué utilizamos sino que también explicitamos todos aquellos aspectos del programa que permiten ? a otros usuarios o miembros del equipo de sistemas? comprender la lógica
+aplicada, facilitando así su posterior mantenimiento que debe ser permanente y en lo posible preventivo más que correctivo.
+Asimismo, explicaremos las herramientas que nos brinda un lenguaje estructurado como el lenguaje C para la resolución de un problema y las distintas maneras o formas de representar la lógica de programación.
+Una vez comprendidas las dos etapas anteriores de representación de la lógica y de los medios de implementarlo en un lenguaje estaremos en condiciones de realizar nuestros programas para resolver los distintos ejercicios planteados.
+Por todo lo expresado hasta aquí es que esperamos que usted, a través del estudio de esta unidad, adquiera capacidad para:
+• Identificar los pasos y las partes constitutivas de un problema.
+• Diseñar alternativas para su resolución.
+• Implementar la solución hallada.
+• Identificar las ventajas que brinda el paradigma estructurado.
+• Identificar las posibilidades que ofrece la programación en 
 
-6. Ingresar tres valores, sumarlos, calcular el promedio e indicar e imprimir cúal de estos valores es mayor al promedio
+Comenzaremos a trabajaren nuestro curso de programación estructurada Como forma de diagramar utilizaremos el diagrama de flujo y como lenguaje el C en su versión DEV C++
+La lectura que tendrán en esta clase es para darles un pantallazo del lenguaje, su estructura, para que cuando pasemos a las próximas clases entendamos el léxico que se emplea
+No traten de memorizar nada, eso se irá dando con la practica a lo largo del curso.
+En todas nuestras clases Uds. tendrán varios links, a saber
+• A teoría del tema escrita como apunte, bajando la rigurosidad de un libro
+• Teoría desde el capítulo del libro
+• Ejercicios de práctica (puede haber más de uno)
+• Link al video de la clase en YouTube
+En las diferentes clases Uds. verán el tema y ejercicios resueltos de dos maneras, común y con funciones
+Este tema de funciones déjenlo para cuando veamos específicamente ese tema, su uso, tipos y demás, pudiendo en ese momento ver como se resuelven los distintos ejercicios.
 
-7. Ingresar cuatro valores, sumar el 1ro y el 2do, el 3ro y el 4to, indicar eimprimir cúal de esta sumas es mayor
 
-8. Ingresar la edad y la altura de dos personas, indicar e imprimir la estatura del de mayor edad
+Links videos varios de PE
+Brizuela, Rafael	Gantuz, Agustina
+https://www.youtube.com/playlist?list=PL8_7XGZbxjYD1J1NqMHt7r1QkysVamhSJ
 
-9. Ingresar el valor de la hora y el tiempo trabajado por un empleado, calcular su sueldo conociendo que recibe un premio de $ 100 si  trabajo más de 50
-hs y si trabajo más de 150 hs le dan otros $ 100 adicionales.imprimir el
-sueldo
+secuenciales
 
-10.Ingresar tres valores correspondientes al día, mes y año de una fecha, indicar si es válida, considerar los años bisiestos
+https://www.youtube.com/watch?v=mJyeABsufag&list=PL8_7XGZbxjYD1J1NqMHt7r1QkysVamhSJ&index=12
 
-11.Ingresar el sueldo, categoría y antigüedad de un empleado, calcular el sueldo final de cada uno de ellos, si empleado es de la categoria 1 se le
-adicionara $50 por cada año de antiguedad.
+https://www.youtube.com/watch?v=ApMmkqqNl34&list=PL8_7XGZbxjYD1J1NqMHt7r1QkysVamhSJ&index=6
 
-12.Sobre los datos del ejercico anterior imprimir los sueldos de los empleados con más de 5 años de antigüedad
+condicionales
 
-13.Ingresar las horas trabajadas por un empleado y su categoría, calcular su sueldo sabiendo que los empleados de la categoría 1 cobran $50, la 2
-cobra $ 70 y la 3 cobra $ 80.
+https://www.youtube.com/watch?v=xI8XckpbhWE&list=PL8_7XGZbxjYD1J1NqMHt7r1QkysVamhSJ&index=2&t=511s
 
-14.Diseñar un algoritmo que permita calcular y visualizar la longitud de la circunferencia y el área de un círculo de radio dado. Luego:
+https://www.youtube.com/watch?v=T2jo7_XtxOM&list=PL8_7XGZbxjYD1J1NqMHt7r1QkysVamhSJ&index=7
 
-15.Escribir en pseudo código un algoritmo que indique si una palabra introducida por el teclado es un palíndromo. En caso que lo sea indicar
-también, la cantidad de caracteres que la constituyen. Codificar el algoritmo en lenguaje C.
-NOTA: Un palíndromo es una palabra que se lee igual en ambos sentidos (capicúa).
+https://www.youtube.com/watch?v=PW4fkcKhAIo&list=PL8_7XGZbxjYD1J1NqMHt7r1QkysVamhSJ&index=5
 
-16.Escribir un algoritmo que determine el precio total a pagar por una llamada telefónica, teniendo en cuenta que: 
+ciclos
 
-a. Toda llamada que dure menos de tres minutos (10 pulsos) tiene un precio de 0.50 pesos.
-b. Y cada minuto adicional (a partir de los tres minutos iniciales) equivale a un pulso y tiene un precio de 0.10 pesos.
-c. Luego:
-d. Realizar el Diagrama de flujo
-e. Construir el Diagrama de Flujo/ seudocodigo
-f. Codificar el algoritmo en lenguaje C.
+https://www.youtube.com/watch?v=HN7B2XOVcIc&list=PL8_7XGZbxjYD1J1NqMHt7r1QkysVamhSJ&index=2
 
-17.Dadas las siguientes expresiones lógicas en lenguaje C evaluar si su resultado es VERDADERO o FALSO:
-a. x =7 y = 5 z = 3
-b. (x>y) && (z==3)
-c. (x<z) || z>5 || y>1
-d. ((x <y) && !(y>x)) || (z>2)
-e. ((x <z) || (y>x)) || !(z>2)
+https://www.youtube.com/watch?v=NLQqyymOWr8&list=PL8_7XGZbxjYD1J1NqMHt7r1QkysVamhSJ&index=3
+
+https://www.youtube.com/watch?v=nuxpFh_rea0&list=PL8_7XGZbxjYD1J1NqMHt7r1QkysVamhSJ&index=4
+
+https://www.youtube.com/watch?v=glJfg-oIQng&list=PL8_7XGZbxjYD1J1NqMHt7r1QkysVamhSJ&index=9
