@@ -31,6 +31,9 @@ En todas nuestras clases Uds. tendrán varios links, a saber
 En las diferentes clases Uds. verán el tema y ejercicios resueltos de dos maneras, común y con funciones
 Este tema de funciones déjenlo para cuando veamos específicamente ese tema, su uso, tipos y demás, pudiendo en ese momento ver como se resuelven los distintos ejercicios.
 
+Los ejercicios estan en el wiki 
+Ejercicios condicionales:
+https://github.com/nbaglietto/Estructura_datos_c-/wiki/Ejercicios-condicionales
 
 Links videos varios de PE
 Brizuela, Rafael	Gantuz, Agustina
