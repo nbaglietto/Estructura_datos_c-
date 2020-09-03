@@ -33,6 +33,7 @@ Este tema de funciones déjenlo para cuando veamos específicamente ese tema, su
 
 Los ejercicios estan en el wiki 
 Ejercicios condicionales:
+
 https://github.com/nbaglietto/Estructura_datos_c-/wiki/Ejercicios-condicionales
 
 Links videos varios de PE
