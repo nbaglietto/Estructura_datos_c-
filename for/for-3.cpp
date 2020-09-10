@@ -3,12 +3,10 @@
 #include<stdio.h> 
 #include<iostream> 
 #include<stdlib.h>
-#include<string.h>
 
 int main ()
 { 
 	int cont,cantsue, sdo=0,tsdo=0;
-	//char alumno[20];
 	printf("Cuantos sueldos ingresara? ");
 	scanf("%d",&cantsue);
 	
