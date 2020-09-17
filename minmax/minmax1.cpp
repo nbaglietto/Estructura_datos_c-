@@ -28,10 +28,10 @@ int main() {
 						tmax = temperatura;
 						}
 					else 
-					{
-					if(temperatura< tmin)
+						{
+						if(temperatura< tmin)
 						tmin = temperatura;							
-					}
+						}
 		
 				}//fin for
 		}//fin if contador
