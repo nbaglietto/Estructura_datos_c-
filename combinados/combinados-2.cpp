@@ -26,8 +26,6 @@ int main ()
 	
 	printf("Cuantos empleados ingresara: ");
    	scanf("%d",& num);
-	if (cont!=num);
-		{	
 		
 	for(cont=0;cont<num;cont++)
     	{
@@ -88,7 +86,6 @@ int main ()
     			} 
 		
 		} //fin for	
-	}//fin contador empleados
 		
 				tot_general=tot_general+tot_cat1+tot_cat2+tot_cat3;
 				
